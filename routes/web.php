@@ -12,7 +12,7 @@ Route::get('logout', [AdminController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth:petugas'])->group(function () {
     Route::get('dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
-    Route::get('dashboard_petugas', [AdminController::class, 'dashboard_petugas'])->name('dashboard_petugas');
+    // Route::get('dashboard_petugas', [AdminController::class, 'dashboard_petugas'])->name('dashboard_petugas');
 });
 
 // route petugas
@@ -39,3 +39,6 @@ Route::get('/edit/Barang/{id_barang}',[BarangController::class, 'tampil']);
 Route::post('/edit/Barang/{id_barang}',[BarangController::class, 'update']);
 Route::get('/delete/Barang/{id_barang}',[BarangController::class, 'delete']);
 
+Route::get('/dashboard_petugas', function(){
+    return view('dashboard_petugas');
+});

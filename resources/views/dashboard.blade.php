@@ -114,7 +114,7 @@
             <img src="\image\lelang.jpg" alt="" width="50" height="50"
                 class="d-inline-block align-text-top">
             <a class="navbar-brand fw-bold text-white">LELANG ONLINE</a>
-            <svg class="bi me-2" width="1500" height="20">
+            <svg class="bi me-2" width="1300" height="20">
                 <use xlink:href="" />
             </svg>
             <a class="navbar-brand text-white text-sm-end">administrator</a>
@@ -136,7 +136,7 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="/dashboard" class="nav-link active" aria-current="page">
+                    <a href="/dashboard" class="nav-link text-dark" aria-current="page">
                         <svg class="bi me-2" width="16" height="16">
                             <use xlink:href="#grid" />
                         </svg>
